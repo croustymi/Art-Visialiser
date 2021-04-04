@@ -1,0 +1,110 @@
+/* LAPTOP L */
+@media screen and (max-width: 1440px) {
+  .theme {
+    font-size: 22px;
+  }
+  section ul li {
+    padding: 6px 15px;
+    font-size: 16px;
+  }
+  section .products .itemBox {
+    width: 275px;
+    height: 275px;
+  }
+}
+
+/* LAPTOP */
+@media screen and (max-width: 1024px) {
+  .theme {
+    font-size: 20px;
+  }
+  section ul li {
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+  section .products .itemBox {
+    width: 265px;
+    height: 265px;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .theme {
+    font-size: 20px;
+  }
+  section ul li {
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  section .products .itemBox {
+    width: 190px;
+    height: 190px;
+  }
+  section .products .itemBox .caption .author {
+    font-size: 18px;
+  }
+  section .products .itemBox .caption .view {
+    font-size: 15px;
+    padding: 2px 5px;
+  }
+}
+
+/* MOBILE L */
+@media screen and (max-width: 425px) {
+  .theme {
+    font-size: 18px;
+  }
+  section ul li {
+    padding: 1px 2px;
+    font-size: 10px;
+  }
+  section .products .itemBox {
+    width: 150px;
+    height: 150px;
+  }
+  section .products .itemBox .caption .author {
+    font-size: 15px;
+  }
+  section .products .itemBox .caption .view {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+}
+
+/* MOBILE M */
+@media screen and (max-width: 375px) {
+  .theme {
+    font-size: 16px;
+  }
+  section ul li {
+    padding: 1px 2px;
+    font-size: 10px;
+  }
+  section .products .itemBox {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+/* MOBILE S */
+@media screen and (max-width: 320px) {
+  .theme {
+    font-size: 14px;
+  }
+  section ul li {
+    padding: 1px 2px;
+    font-size: 8px;
+  }
+  section .products .itemBox {
+    width: 105px;
+    height: 105px;
+  }
+  section .products .itemBox .caption .author {
+    font-size: 12px;
+  }
+  section .products .itemBox .caption .view {
+    font-size: 12px;
+    padding: 1px 2px;
+  }
+}
