@@ -24,8 +24,6 @@ CREATE TABLE `draws` (
   KEY `img_url` (`img_url`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
-INSERT INTO `draws`(`author`, `discord_id`, `theme`, `img_url`) VALUES ('','','','');
-
 DROP TABLE IF EXISTS `themes`;
 CREATE TABLE `themes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
